@@ -1,16 +1,19 @@
+import { useTranslation } from "react-i18next";
 import TitleContent from "../../components/title-content/TitleContent";
 
-const FunFacts = (props: { facts: string[] }) => {
-    const list = props.facts.map((f, i) => {
+const FunFacts = () => {
+    const { t } = useTranslation();
+    const facts = t("facts", { returnObjects: true }) as Record<string, string>;
+    const list = Object.values(facts).map((f, i) => {
         return (
             <div key={i} className="border-[1px] py-1 px-3 inline-block text-white">
-                {f}
+                {t(f)}
             </div>
         );
     })
     return (
         <div className="mb-20">
-            <TitleContent content="my-fun-facts" />
+            <TitleContent content={t("my-fun-facts")} />
             <div className="flex justify-between items-center">
                 <div className="left flex flex-wrap gap-3">
                     {list}

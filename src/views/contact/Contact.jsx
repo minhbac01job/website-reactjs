@@ -17,10 +17,10 @@ const Contact = () => {
                         <p className="text-white font-bold md:text-[14px] lg:text-[16px]">{t('messege_me')}</p>
                         <ul className="pt-5">
                             <li className="flex-wrap flex items-center gap-2 text-[var(--menu-inactive)] md:text-[14px] lg:text-[15px]">
-                                <img src={require('../../resources/imgs/contact/Discord.png')} alt="" /> <p className="sm:w-[100%]">!PhongND#3519</p>
+                                <img src={require('../../resources/imgs/contact/telegram.png')} alt="" /> <p className="sm:w-[100%]">@BacLM2001</p>
                             </li>
                             <li className="flex-wrap flex items-center gap-2 text-[var(--menu-inactive)] md:text-[14px] lg:text-[15px]">
-                                <img src={require('../../resources/imgs/contact/Email.png')} alt="" /> <p className="sm:w-[100%]">phongnguyendx@gmail.com</p>
+                                <img src={require('../../resources/imgs/contact/Email.png')} alt="" /> <p className="sm:w-[100%]">minhbac01.job@gmail.com</p>
                             </li>
                         </ul>
                     </div>

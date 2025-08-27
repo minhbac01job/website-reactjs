@@ -7,7 +7,7 @@ const First = () => {
         <div id="first" className="flex items-center gap-6">
             <div className="left">
                 <p className="intro text-white font-bold text-[32px]">
-                    PhongND {t('is')} <span>Fullstack web developer</span> {t('and')} <span>Mobile developer</span>
+                    BacLM {t('is')} <span>Fullstack web developer</span> {t('and')} <span>Mobile developer</span>
                 </p>
                 <p className="mt-8 desc text-[16px] text-[#ABB2BF] font-[400] leading-[25px]">
                     {t('brief')}

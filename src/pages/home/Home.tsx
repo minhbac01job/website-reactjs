@@ -18,7 +18,6 @@ const HomePage = () => {
 
     return (
         <>
-            <a style={{ color: 'white' }} href="https://www.highcpmrevenuegate.com/f967a0hg?key=b44958ce1516a358eb50fa1a31896dfc">Đây là link quảng cáo</a>
             <First />
             <Quote />
             <Project projects={projects} />

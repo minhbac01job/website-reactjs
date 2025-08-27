@@ -62,7 +62,7 @@ const Navbar = () => {
                         <div className="img">
                             <img src={require('../../resources/Logo.png')} alt='' />
                         </div>
-                        PhongND
+                        BacLM
                     </div>
                 </Link>
                 <div className="right flex gap-10 text-white">

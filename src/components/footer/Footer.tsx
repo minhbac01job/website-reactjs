@@ -7,27 +7,24 @@ const Footer = () => {
                         <div className="img">
                             <img src={require('../../resources/Logo.png')} alt='' width={24} height={24} />
                         </div>
-                        PhongND
-                        <span className="ml-5 text-[16px] text-[var(--menu-inactive)]">phongnguyendx@gmail.com</span>
+                        BacLM
+                        <span className="ml-5 text-[16px] text-[var(--menu-inactive)]">minhbac01.job@gmail.com</span>
                     </div>
-                    <p className="md:text-[12px] lg:text-[16px] text-white mt-5">Fullstack developer PhongND</p>
+                    <p className="md:text-[12px] lg:text-[16px] text-white mt-5">Fullstack developer BacLM</p>
                 </div>
                 <div className="right">
                     <p className="text-white font-[500] md:text-[14px] lg:text-[16px]">Media</p>
                     <div className="media flex mt-2 gap-3">
-                        <a href="https://github.com/nguyendinhphongdx" target='_blank' rel="noreferrer">
+                        <a href="https://github.com/minhbac01job" target='_blank' rel="noreferrer">
                             <img src={require('../../resources/imgs/Github.png')} alt='' width={28} height={28} />
                         </a>
-                        <a href="https://www.facebook.com/phongnd.fullstack/" target='_blank' rel="noreferrer">
+                        <a href="https://www.facebook.com/minhbac.le.9/" target='_blank' rel="noreferrer">
                             <img src={require('../../resources/imgs/Facebook.png')} alt='' width={32} height={32} />
-                        </a>
-                        <a href='https://www.tiktok.com/@nguyendinhphong2606' target='_blank' rel="noreferrer">
-                            <img src={require('../../resources/imgs/Tiktok.png')} alt='' width={28} height={28} />
                         </a>
                     </div>
                 </div>
                 <div className="text-[var(--menu-inactive)] copyright w-[100%] text-center mt-10 md:text-[14px]]">
-                    © Copyright 2022. Made by PhongND
+                    © Copyright 2023. Made by BacLM
                 </div>
             </div>
 

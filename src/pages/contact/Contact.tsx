@@ -18,7 +18,7 @@ const ContactPage = () => {
                         <p className="text-white font-bold">{t('phone')}</p>
                         <ul className="pt-5">
                             <li className="flex items-center gap-2 text-[var(--menu-inactive)]">
-                                +84 352337342
+                                +84 965 975 836
                             </li>
                         </ul>
                     </div>
@@ -26,10 +26,10 @@ const ContactPage = () => {
                         <p className="text-white font-bold">{t('messege_me')}</p>
                         <ul className="pt-5">
                             <li className="flex items-center gap-2 text-[var(--menu-inactive)]">
-                                <img src={require('../../resources/imgs/contact/Discord.png')} alt="" /> !PhongND#3519
+                                <img src={require('../../resources/imgs/contact/telegram.png')} alt="" /> @BacLM2001
                             </li>
                             <li className="flex items-center gap-2 text-[var(--menu-inactive)]">
-                                <img src={require('../../resources/imgs/contact/Email.png')} alt="" /> phongnguyendx@gmail.com
+                                <img src={require('../../resources/imgs/contact/Email.png')} alt="" /> minhbac01.job@gmail.com
                             </li>
                         </ul>
                     </div>
@@ -38,10 +38,10 @@ const ContactPage = () => {
             <TitleContent content={t("all_media")} />
             <div className="flex gap-2">
                 <div className="icon flex justify-center items-center gap-2  text-[#ABB2BF]">
-                    <img src={require('../../resources/imgs/twitter.png')} alt="" /> @phongnd
+                    <img src={require('../../resources/imgs/Facebook.png')} alt="" /> @minhbac.le.9
                 </div>
                 <div className="icon flex justify-center items-center gap-2 text-[#ABB2BF]">
-                    <img src={require('../../resources/imgs/twitter.png')} alt="" /> @phongnd
+                    <img src={require('../../resources/imgs/twitter.png')} alt="" /> @minhbac01
                 </div>
             </div>
         </>
